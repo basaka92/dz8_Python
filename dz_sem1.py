@@ -29,13 +29,11 @@ def task2():
             ((ySecondPoint-yFirstPoint)**2)
         )**0.5
         if distance == 0:
-            5
             print("Заданные точки совпадают!")
         else:
             print(f"Расстояние между двуия точками равно {distance}")
     except ValueError:
         print("Неверный тип введёных данных!")
-
 
 def task3():
     try:
