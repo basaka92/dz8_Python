@@ -45,20 +45,3 @@ def task3():
     print("Конечный список: ", end="")
     print(*resList, sep=", ")
 
-
-
-matrix = [[random.randint(0, 1) for _ in range(5)],
-              [random.randint(0, 1) for _ in range(5)],
-              [random.randint(0, 1) for _ in range(5)],
-              [random.randint(0, 1) for _ in range(5)],
-              [random.randint(0, 1) for _ in range(5)]
-              ]
-matrix[0][0] = 1
-matrix[4][4] = 1
-print(*matrix[0])
-print(*matrix[1])
-print(*matrix[2])
-print(*matrix[3])
-print(*matrix[4])
-point = [0, 0]
-route = []
